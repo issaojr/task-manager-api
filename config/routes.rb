@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   namespace :api, defaults: { format: :json },
   constraints: { subdomain: 'api' }, path:"/" do
-    
+    # tasks - api.nomedosite.com/tasks
+    # users - api.nomedosite.com/users
   end
 end
